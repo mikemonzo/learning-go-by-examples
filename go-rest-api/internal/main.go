@@ -70,7 +70,7 @@ func GetGopherByName(gopher operations.GetGopherNameParams) middleware.Responder
 	if gopher.Name != "" {
 		URL = "https://github.com/scraly/gophers/raw/main/" + gopher.Name + ".png"
 	} else {
-		//by default we return dr who gopher
+		//by default, we return dr who gopher
 		URL = "https://github.com/scraly/gophers/raw/main/dr-who.png"
 	}
 
